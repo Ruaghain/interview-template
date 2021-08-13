@@ -7,11 +7,9 @@ scenario that they wish for you to implement using some existing functionality a
 ## Instructions
 
 1. Clone the project in your preferred IDE.
-2. Create a new branch in the format of `<yyyy-mm-dd>_<your name>` e.g. `2021-02-02_rick_hunter`
 3. Ensure that you have received the scenario that the interviewers wish to see you implement
 4. Share your screen so that the interviewers can see you working.
-5. Solve the scenario provided in a manner that you would usually do in a work environment, and push your branch 
-to GitHub when done.
+5. Solve the scenario provided in a manner that you would usually do in a work environment.
 
 ## Startup
 The following subheadings describe how to start the application for each 

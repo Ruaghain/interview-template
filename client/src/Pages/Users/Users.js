@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { UsersModel } from "./Users.model";
+import { getAllUsers } from "./Users.model";
 import UserList from "./UserList/UserList";
 
 function Users() {
@@ -7,7 +7,7 @@ function Users() {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await UsersModel.get();
+            const result = await getAllUsers();
             setData(result.data);
         }
         fetchData();

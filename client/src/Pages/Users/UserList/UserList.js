@@ -54,6 +54,7 @@ function UserList(props) {
     return (
         <div style={{height: 400, width: '100%'}}>
             <DataGrid
+                rowsPerPageOptions={[5, 10, 25, 50, 100]}
                 rows={props.userData}
                 columns={columns}
                 pageSize={5}

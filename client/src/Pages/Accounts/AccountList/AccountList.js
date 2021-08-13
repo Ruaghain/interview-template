@@ -46,13 +46,13 @@ const columns = [
             </div>
         )
     }
-
 ];
 
 function AccountList(props) {
     return (
         <div style={{ height: 400, width: '100%' }}>
             <DataGrid
+                rowsPerPageOptions={[5, 10, 25, 50, 100]}
                 rows={props.accountData}
                 columns={columns}
                 pageSize={5}
