@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { AccountsModel } from "./Accounts.model";
+import { getAllAccounts } from "./Accounts.model";
 import AccountList from "./AccountList/AccountList";
 
 function Accounts() {
@@ -7,7 +7,7 @@ function Accounts() {
 
     useEffect(() => {
         const fetchData = async () => {
-            const result = await AccountsModel.get();
+            const result = await getAllAccounts();
             setData(result.data);
         }
         fetchData();
